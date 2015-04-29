@@ -10,9 +10,9 @@ Requires:
 
 Set the following environment variables to match with your Bugzilla's setup:
 
-**BUGZILLA_URL** = Your Bugzilla's URL. URL should end with xmlrpc.cgi, such as http://bugzilla/xmlrpc.cgi
-**BUGZILLA_USERNAME** = Your Bugzilla's username
-**BUGZILLA_PASSWORD** = Your Bugzilla's password
+- **BUGZILLA_URL** = Your Bugzilla's URL. URL should end with xmlrpc.cgi, such as http://bugzilla/xmlrpc.cgi
+- **BUGZILLA_USERNAME** = Your Bugzilla's username
+- **BUGZILLA_PASSWORD** = Your Bugzilla's password
 
 Shell script has some variables you might want to customize:
 
