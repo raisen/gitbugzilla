@@ -16,8 +16,9 @@ Set the following environment variables to match with your Bugzilla's setup:
 
 Shell script has some variables you might want to customize:
 
-- **FILE** - Text file created by python-bugzilla (defaults to *bugs.txt*)
-- **bug_prefix** - Prefix when matching Bugzilla's bug number with git's branch name (defaults to *bug*). If value is kept as default and say that we want to update the branch corresponding to Bugzilla's bug number 100, a branch named *bug100* must exist, otherwise branch won't have description set.
+- **FILE** - Location of temporary text file created by python-bugzilla
+- **BUGPREFIX** - Prefix when matching Bugzilla's bug number with git's branch name (defaults to *bug*). If value is kept as default and say that we want to update the branch corresponding to Bugzilla's bug number 100, a branch named *bug100* must exist, otherwise branch won't have description set.
+- **BUGZILLA** - Path for python-bugzilla
 
 ## Usage
 
