@@ -24,5 +24,6 @@ Shell script has some variables you might want to customize:
 
     gitbugzilla.sh <COMMAND>
 
+      <COMMAND> is one or more of the following:
       -s Show git branches with their descriptions
-      -g Populate git branches with Bugzilla's information"
+      -g Populate git branches with Bugzilla's information
