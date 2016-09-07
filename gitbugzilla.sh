@@ -76,7 +76,7 @@ while getopts sg opt; do
     remove_temp_file
     ;;
   *)
-    echo 'a'
+    show_help
     ;;
   esac
 done
