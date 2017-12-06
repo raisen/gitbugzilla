@@ -4,7 +4,7 @@ Small bash script to populate descriptions for git branches from a Bugzilla's se
 
 Requires:
 
-- [python-bugzilla](https://fedorahosted.org/python-bugzilla/)
+- [python-bugzilla](https://github.com/python-bugzilla/python-bugzilla)
 
 ## Installation
 
